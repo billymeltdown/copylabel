@@ -11,12 +11,22 @@
 @implementation CopyLabel
 
 - (void)showCopyMenu {
-	NSLog(@"doing my best....");
+	NSLog(@"I'm tryin' Ringo, I'm tryin' reeeeal hard.");
 	// bring up editing menu.
 	UIMenuController *theMenu = [UIMenuController sharedMenuController];
 	//CGRect selectionRect = CGRectMake(currentSelection.x, currentSelection.y, SIDE, SIDE);
-	//[theMenu setTargetRect:selectionRect inView:self];
+	CGRect selectionRect = [self frame];
+	[theMenu setTargetRect:selectionRect inView:self];
 	[theMenu setMenuVisible:YES animated:YES];
+}
+
+- (BOOL)canPerformAction:(SEL)action withSender:(id)sender {
+	BOOL answer = NO;
+	
+	if (action == @selector(copy:))
+		answer = YES;
+	
+	return answer;
 }
 
 - (BOOL)canBecomeFirstResponder {

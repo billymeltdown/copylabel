@@ -86,7 +86,7 @@
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<string key="IBUIText">press me for 0.8s for copy menu</string>
-						<object class="NSColor" key="IBUITextColor" id="42974407">
+						<object class="NSColor" key="IBUITextColor" id="434958868">
 							<int key="NSColorSpace">1</int>
 							<bytes key="NSRGB">MCAwIDAAA</bytes>
 						</object>
@@ -94,7 +94,7 @@
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">1.000000e+01</float>
 					</object>
-					<object class="IBUILabel" id="436934914">
+					<object class="IBUILabel" id="1038577795">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{20, 249}, {265, 21}}</string>
@@ -103,7 +103,7 @@
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="IBUIText">hold down arnold to show a button</string>
-						<reference key="IBUITextColor" ref="42974407"/>
+						<reference key="IBUITextColor" ref="434958868"/>
 						<nil key="IBUIHighlightedColor"/>
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">1.000000e+01</float>
@@ -187,7 +187,7 @@
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<reference ref="403521153"/>
-							<reference ref="436934914"/>
+							<reference ref="1038577795"/>
 							<reference ref="700568050"/>
 							<reference ref="832650935"/>
 						</object>
@@ -210,7 +210,7 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">17</int>
-						<reference key="object" ref="436934914"/>
+						<reference key="object" ref="1038577795"/>
 						<reference key="parent" ref="774585933"/>
 					</object>
 				</object>
