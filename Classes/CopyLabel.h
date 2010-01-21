@@ -9,9 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface CopyLabel : UILabel {
-
+	CGPoint holdPoint;
 }
 
-- (void)showCopyMenu;
+- (void)showMenu;
+- (void)reset;
 
 @end

@@ -275,7 +275,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>8</integer>
+									<integer>7</integer>
 									<integer>2</integer>
 									<integer>0</integer>
 								</array>
@@ -330,7 +330,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>133497C71108B26B00F4A1C2</string>
+										<string>133498551108DA9D00F4A1C2</string>
 										<key>history</key>
 										<array>
 											<string>13EB1EAA1107A61B0075F5E5</string>
@@ -340,8 +340,8 @@
 											<string>133497B91108A2EC00F4A1C2</string>
 											<string>133497BA1108A2EC00F4A1C2</string>
 											<string>133497BB1108A2EC00F4A1C2</string>
-											<string>133497BC1108A2EC00F4A1C2</string>
-											<string>133497B31108A15600F4A1C2</string>
+											<string>133498391108D53600F4A1C2</string>
+											<string>1334983A1108D53600F4A1C2</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -361,6 +361,26 @@
 											<string>133497BE1108A2EC00F4A1C2</string>
 											<string>133497BF1108A2EC00F4A1C2</string>
 											<string>133497C01108A2EC00F4A1C2</string>
+											<string>133498021108C8AE00F4A1C2</string>
+											<string>133498031108C8AE00F4A1C2</string>
+											<string>133498041108C8AE00F4A1C2</string>
+											<string>133498051108C8AE00F4A1C2</string>
+											<string>133498061108C8AE00F4A1C2</string>
+											<string>133498071108C8AE00F4A1C2</string>
+											<string>1334980E1108D07F00F4A1C2</string>
+											<string>1334980F1108D07F00F4A1C2</string>
+											<string>133498241108D30900F4A1C2</string>
+											<string>133498251108D30900F4A1C2</string>
+											<string>1334982D1108D3D100F4A1C2</string>
+											<string>1334982E1108D3D100F4A1C2</string>
+											<string>1334982F1108D3D100F4A1C2</string>
+											<string>133498301108D3D100F4A1C2</string>
+											<string>133498351108D40A00F4A1C2</string>
+											<string>133498361108D40A00F4A1C2</string>
+											<string>1334983B1108D53600F4A1C2</string>
+											<string>1334983C1108D53600F4A1C2</string>
+											<string>1334983D1108D53600F4A1C2</string>
+											<string>1334983E1108D53600F4A1C2</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -554,9 +574,11 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>133498271108D30900F4A1C2</string>
+		<string>133498281108D30900F4A1C2</string>
 		<string>13EB1EA01107A61A0075F5E5</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>1C78EAAD065D492600B07095</string>
+		<string>1CD10A99069EF8BA00B06720</string>
 		<string>/Users/wgray/Documents/Sources/iPhone/HoldEm/HoldEm.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
