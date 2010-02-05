@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		13135BB9111CA5EF003A7F70 /* zetetic.png in Resources */ = {isa = PBXBuildFile; fileRef = 13135BB8111CA5EF003A7F70 /* zetetic.png */; };
 		13135BBE111CA730003A7F70 /* secret.png in Resources */ = {isa = PBXBuildFile; fileRef = 13135BBD111CA730003A7F70 /* secret.png */; };
-		133497B01108A0DA00F4A1C2 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 133497AF1108A0DA00F4A1C2 /* README.txt */; };
+		133497B01108A0DA00F4A1C2 /* README.textile in Resources */ = {isa = PBXBuildFile; fileRef = 133497AF1108A0DA00F4A1C2 /* README.textile */; };
 		13EB1F171107B6DF0075F5E5 /* CopyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 13EB1F161107B6DF0075F5E5 /* CopyLabel.m */; };
 		1D3623260D0F684500981E51 /* HoldEmAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* HoldEmAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
@@ -24,7 +24,7 @@
 /* Begin PBXFileReference section */
 		13135BB8111CA5EF003A7F70 /* zetetic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zetetic.png; sourceTree = "<group>"; };
 		13135BBD111CA730003A7F70 /* secret.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = secret.png; sourceTree = "<group>"; };
-		133497AF1108A0DA00F4A1C2 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; wrapsLines = 1; };
+		133497AF1108A0DA00F4A1C2 /* README.textile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.textile; sourceTree = "<group>"; wrapsLines = 1; };
 		13EB1F151107B6DF0075F5E5 /* CopyLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CopyLabel.h; sourceTree = "<group>"; };
 		13EB1F161107B6DF0075F5E5 /* CopyLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CopyLabel.m; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -80,7 +80,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				133497AF1108A0DA00F4A1C2 /* README.txt */,
+				133497AF1108A0DA00F4A1C2 /* README.textile */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -165,7 +165,7 @@
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				2899E5220DE3E06400AC0155 /* HoldEmViewController.xib in Resources */,
-				133497B01108A0DA00F4A1C2 /* README.txt in Resources */,
+				133497B01108A0DA00F4A1C2 /* README.textile in Resources */,
 				13135BB9111CA5EF003A7F70 /* zetetic.png in Resources */,
 				13135BBE111CA730003A7F70 /* secret.png in Resources */,
 			);

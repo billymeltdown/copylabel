@@ -3,7 +3,7 @@
 //  HoldEm
 //
 //  Created by Billy Gray on 1/20/10.
-//  Copyright Zetetic LLC 2010. All rights reserved.
+//  Copyright © 2010 Zetetic LLC. All rights reserved.
 //
 
 #import "HoldEmAppDelegate.h"
