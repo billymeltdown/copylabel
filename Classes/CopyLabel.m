@@ -23,11 +23,15 @@
 	[theMenu setTargetRect:selectionRect inView:self];
 	[theMenu setMenuVisible:YES animated:YES];
 	
-	[self setBackgroundColor:[UIColor colorWithRed:255.0 green:235.0 blue:180.0 alpha:0.8]];
+	// do a bit of highlighting to clarify what will be copied, specifically
+	_bgColor = [self backgroundColor];
+	[_bgColor retain];
+	[self setBackgroundColor:[UIColor blackColor]];
 }
 
 - (void)reset {
-	[self setBackgroundColor:nil];
+	[self setBackgroundColor:_bgColor];
+	// unsubscribe!
 	NSNotificationCenter *center = [NSNotificationCenter defaultCenter];
 	[center removeObserver:self name:UIMenuControllerWillHideMenuNotification object:nil];
 }
@@ -36,8 +40,6 @@
     UIPasteboard *gpBoard = [UIPasteboard generalPasteboard];
 	[gpBoard setValue:[self text] forPasteboardType:@"public.utf8-plain-text"];
 }
-
-// UIMenuControllerDidHideMenuNotification is what we want for running reset...
 
 - (BOOL)canPerformAction:(SEL)action withSender:(id)sender {
 	BOOL answer = NO;
@@ -73,32 +75,10 @@
 	[NSObject cancelPreviousPerformRequestsWithTarget:self selector:@selector(showMenu) object:nil];
 }
 
-#pragma mark -
-#pragma mark Motion-event handling
-
-/*
- Custom views should implement all motion-event handlers, even if it's a null implementation, and not call super.
- */
-
-- (void)motionBegan:(UIEventSubtype)motion withEvent:(UIEvent *)event {
-	return;
-}
-
-
-// Shaking resets board.
-- (void)motionEnded:(UIEventSubtype)motion withEvent:(UIEvent *)event {
-	if (motion = UIEventSubtypeMotionShake ) {
-		[self reset];
-	}
-}
-
-- (void)motionCancelled:(UIEventSubtype)motion withEvent:(UIEvent *)event {
-	return;
-}
-
 # pragma mark -
 
 - (void)dealloc {
+	[_bgColor release], _bgColor = nil;
 	// make sure we're unregistered for notifications
 	NSNotificationCenter *center = [NSNotificationCenter defaultCenter];
 	[center removeObserver:self name:UIMenuControllerWillHideMenuNotification object:nil];

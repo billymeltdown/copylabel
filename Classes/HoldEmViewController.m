@@ -10,40 +10,7 @@
 
 @implementation HoldEmViewController
 
-@synthesize button, imageView;
-
-/*
-// The designated initializer. Override to perform setup that is required before the view is loaded.
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
-    if (self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]) {
-        // Custom initialization
-    }
-    return self;
-}
-*/
-
-/*
-// Implement loadView to create a view hierarchy programmatically, without using a nib.
-- (void)loadView {
-}
-*/
-
-
-/*
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
-- (void)viewDidLoad {
-    [super viewDidLoad];
-}
-*/
-
-
-/*
-// Override to allow orientations other than the default portrait orientation.
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-    // Return YES for supported orientations
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
-}
-*/
+@synthesize imageView, hiddenView;
 
 - (void)didReceiveMemoryWarning {
 	// Releases the view if it doesn't have a superview.
@@ -57,19 +24,13 @@
 	// e.g. self.myOutlet = nil;
 }
 
-- (IBAction)tap:(id)sender {
-	NSLog(@"tapped button");
-	[button setHidden:YES];
-}
-
 - (void)holdingView:(id)view {
-	NSLog(@"the image view was held down, show button");
-	[button setHidden:NO];
+	[hiddenView setHidden:NO];
 }
 
 - (void)dealloc {
+	[hiddenView release];
 	[imageView release];
-	[button release];
     [super dealloc];
 }
 

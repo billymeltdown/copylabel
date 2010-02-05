@@ -9,16 +9,13 @@
 #import <UIKit/UIKit.h>
 
 @interface HoldEmViewController : UIViewController {
-	UIButton *button;
+	UIView *hiddenView;
 	UIImageView *imageView;
-	BOOL trackingTouch;
-	NSTimeInterval touchStart;
 }
 
-@property (nonatomic, retain) IBOutlet UIButton *button;
+@property (nonatomic, retain) IBOutlet UIView *hiddenView;
 @property (nonatomic, retain) IBOutlet UIImageView *imageView;
 
-- (IBAction)tap:(id)sender;
 - (void)holdingView:(id)view;
 
 @end

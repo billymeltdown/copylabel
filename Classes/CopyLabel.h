@@ -10,6 +10,7 @@
 
 @interface CopyLabel : UILabel {
 	CGPoint holdPoint;
+	UIColor *_bgColor;
 }
 
 - (void)showMenu;
